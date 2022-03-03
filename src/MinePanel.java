@@ -143,7 +143,14 @@ public class MinePanel extends JPanel {
 	public void checkForZeroes(int x, int y)
 	{
 		//TODO: this is the method you need to write!
-		
+
+		// Hint: I can think of three base cases that you should consider for an (x,y) pair.
+		//     The order you consider them __will__ matter.
+
+		// suggestion: call all 8 neighbors, even if they might have non-zero neighbors
+		// or other issues. Let the base-cases decide whether to quickly return or
+		// do more.
+
 	}
 	public class clickListener extends MouseAdapter
 	{
